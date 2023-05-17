@@ -1,5 +1,5 @@
 # Apache ve Nginx ile Tersine Vekil Sunucu Örneği
-Bu örnek Apache ve Nginx sunucuları kullanarak tersine vekil sunucusunun nasıl oluşturulacağı göstermektedir.
+Bu örnek Apache ve Nginx sunucuları kullanarak tersine vekil sunucusunun nasıl oluşturulacağı göstermektedir. Demo [bu linkte](https://francoisromain.medium.com/setup-node-js-apache-nginx-reverse-proxy-with-docker-1f5a5cb3e71e) yer alan örnek üzerinden gidilerek hazırlanmıştır.
 * Apache sunucusu üzerinde PHP diliyle yazılmış basit bir API örneği yer almaktadır. Sunucu 8000 portunda çalışmaktadır.
 * NodeJS sunucusunda PHP ile yazılmış API'yi tüketen basit bir uygulama çalışmaktadır. Sunucu 3000 portunda çalışmaktadır.
 * Nginx tersine vekil sunucusu (reverse proxy) olarak çalışmaktatır. Sunucu ayarları nginx klasöründe default.conf dosyasında yer almaktadır. Sunucu 80 portunda çalışmaktadır.
